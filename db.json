@@ -123,7 +123,7 @@
         {
             "id": 16,
             "name": "LIADO",
-            "peso": "1",
+            "peso": "0",
             "price": "2.5",
             "image": "https://i.postimg.cc/2SY7m5rH/PORRO.jpg"
   
@@ -131,7 +131,7 @@
         {
             "id": 17,
             "name": "BEBIDA",
-            "peso": "1",
+            "peso": "0",
             "price": "1",
             "image": "https://i.postimg.cc/1RNd3f1P/SOFT-DRINK-CAN-001.jpg"
   

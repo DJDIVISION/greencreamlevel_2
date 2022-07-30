@@ -91,7 +91,22 @@ function POSPage() {
     setTotalAmount(newTotalAmount);
   },[cart])
 
+  const [stock, setStock] = useState([]);
 
+  const fetchStock = async () => {
+    const response = await axios.get("http://localhost:8000/");
+    setStock(response.data);
+    const AMNESIA1 = (response.data[0].amnesia1);
+    const AMNESIA2 = (response.data[0].amnesia2);
+    const GELATO = (response.data[0].gelato);
+    const JAMAICAN = (response.data[0].jamaican);
+    const LIADOS = (response.data[0].liados);
+    const BEBIDAS = (response.data[0].bebidas);
+  }
+
+  useEffect(() => {
+    fetchStock();
+  },[]);
 
   return (
     <MainLayout>

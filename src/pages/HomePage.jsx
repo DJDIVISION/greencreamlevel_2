@@ -39,11 +39,30 @@ const Button = styled(motion.div)`
   left: 25%;
 `;
 
+
+const StockButton = styled(motion.div)`
+  width: 150px;
+  height: 30px;
+  color: white;
+  background: transparent;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  position: absolute;
+  cursor: pointer;
+  top: 81%;
+  left: 62.5%;
+`;
+
 function HomePage() {
   return (
     <Section>
       <Title>GREEN CREAM LEVEL</Title>
       <Link to="/dispensario"><Button whileHover={{scale: 1.05}} whileTap={{scale: 0.95}}>DISPENSARIO</Button></Link>
+      <Link to="/stock"><StockButton whileHover={{scale: 1.05}} whileTap={{scale: 0.95}}>STOCK</StockButton></Link>
     </Section>
   )
 }
