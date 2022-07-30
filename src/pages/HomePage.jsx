@@ -43,7 +43,7 @@ function HomePage() {
   return (
     <Section>
       <Title>GREEN CREAM LEVEL</Title>
-      <Link to="/pos"><Button whileHover={{scale: 1.05}} whileTap={{scale: 0.95}}>DISPENSARIO</Button></Link>
+      <Link to="/dispensario"><Button whileHover={{scale: 1.05}} whileTap={{scale: 0.95}}>DISPENSARIO</Button></Link>
     </Section>
   )
 }

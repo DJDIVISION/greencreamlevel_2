@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage/>} />
-        <Route path="/pos" element={<POSPage/>} />
+        <Route path="/dispensario" element={<POSPage/>} />
       </Routes>
     </Router>
   );
