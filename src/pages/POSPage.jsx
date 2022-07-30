@@ -18,8 +18,9 @@ function POSPage() {
   }
 
   const fetchProducts = async() => {
+    const api = "https://greencreamlevel-2.vercel.app/products"
     setIsLoading(true);
-    const result = await axios.get('products');
+    const result = await axios.get(api);
     setProducts(await result.data);
     setIsLoading(false);
   }
