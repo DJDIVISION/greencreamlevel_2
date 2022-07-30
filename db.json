@@ -1,0 +1,140 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Amnesia 1",
+            "peso": "0.5g",
+            "price": "2.5",
+            "image": "https://i.postimg.cc/y8L3ZQ3s/amnesia1.jpg"
+  
+        },
+        {
+            "id": 2,
+            "name": "Amnesia 1",
+            "peso": "1g",
+            "price": "5",
+            "image": "https://i.postimg.cc/y8L3ZQ3s/amnesia1.jpg"
+  
+        },
+        {
+            "id": 3,
+            "name": "Amnesia 1",
+            "peso": "0.2g",
+            "price": "1",
+            "image": "https://i.postimg.cc/y8L3ZQ3s/amnesia1.jpg"
+  
+        },
+        {
+            "id": 4,
+            "name": "Amnesia 2",
+            "peso": "0.5g",
+            "price": "2.5",
+            "image": "https://i.postimg.cc/ncPt9qVN/amnesia2.jpg"
+  
+        },
+        {
+            "id": 5,
+            "name": "Amnesia 2",
+            "peso": "1g",
+            "price": "5",
+            "image": "https://i.postimg.cc/ncPt9qVN/amnesia2.jpg"
+  
+        },
+        {
+            "id": 6,
+            "name": "Amnesia 2",
+            "peso": "0.2g",
+            "price": "1",
+            "image": "https://i.postimg.cc/ncPt9qVN/amnesia2.jpg"
+  
+        },
+        {
+            "id": 7,
+            "name": "Jamaican Dream",
+            "peso": "0.5g",
+            "price": "2.5",
+            "image": "https://i.postimg.cc/5003zQ2k/jamaican.jpg"
+  
+        },
+        {
+            "id": 8,
+            "name": "Jamaican Dream",
+            "peso": "1g",
+            "price": "5",
+            "image": "https://i.postimg.cc/5003zQ2k/jamaican.jpg"
+  
+        },
+        {
+            "id": 9,
+            "name": "Jamaican Dream",
+            "peso": "0.2g",
+            "price": "1",
+            "image": "https://i.postimg.cc/5003zQ2k/jamaican.jpg"
+  
+        },
+        {
+            "id": 10,
+            "name": "GELATO",
+            "peso": "0.5g",
+            "price": "3",
+            "image": "https://i.postimg.cc/jjFJZPnp/GELATO.jpg"
+  
+        },
+        {
+            "id": 11,
+            "name": "GELATO",
+            "peso": "1g",
+            "price": "6",
+            "image": "https://i.postimg.cc/jjFJZPnp/GELATO.jpg"
+  
+        },
+        {
+            "id": 12,
+            "name": "GELATO",
+            "peso": "0.16g",
+            "price": "1",
+            "image": "https://i.postimg.cc/jjFJZPnp/GELATO.jpg"
+  
+        },
+        {
+            "id": 13,
+            "name": "HASH",
+            "peso": "0.5g",
+            "price": "3",
+            "image": "https://i.postimg.cc/g0FFG8rC/hash.jpg"
+  
+        },
+        {
+            "id": 14,
+            "name": "HASH",
+            "peso": "1g",
+            "price": "6",
+            "image": "https://i.postimg.cc/g0FFG8rC/hash.jpg"
+  
+        },
+        {
+            "id": 15,
+            "name": "HASH",
+            "peso": "0.16g",
+            "price": "1",
+            "image": "https://i.postimg.cc/g0FFG8rC/hash.jpg"
+  
+        },
+        {
+            "id": 16,
+            "name": "LIADO",
+            "peso": "1",
+            "price": "2.5",
+            "image": "https://i.postimg.cc/2SY7m5rH/PORRO.jpg"
+  
+        },
+        {
+            "id": 17,
+            "name": "BEBIDA",
+            "peso": "1",
+            "price": "1",
+            "image": "https://i.postimg.cc/1RNd3f1P/SOFT-DRINK-CAN-001.jpg"
+  
+        }
+    ]
+  }
