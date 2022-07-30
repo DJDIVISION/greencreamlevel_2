@@ -35,7 +35,7 @@ const Button = styled(motion.div)`
   font-weight: bold;
   position: absolute;
   cursor: pointer;
-  top: 80%;
+  top: 81%;
   left: 25%;
 `;
 
