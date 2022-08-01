@@ -102,6 +102,7 @@ function POSPage() {
     const JAMAICAN = (response.data[0].jamaican);
     const LIADOS = (response.data[0].liados);
     const BEBIDAS = (response.data[0].bebidas);
+    console.log(AMNESIA1);
   }
 
   useEffect(() => {
