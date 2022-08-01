@@ -5,9 +5,9 @@ const mysql = require ('mysql2');
 
 const db = mysql.createPool({
     database: 'hierbas',
-    user: 'dwjkbh7uq2ea',
+    user: '3ta6cf9vvw9n',
     host: 'rqiw8ux75k5m.us-east-2.psdb.cloud',
-    password: 'pscale_pw_b56g4mdu1ruK1esHlL5R8idx5bRsPUCQKwwOdTaiK-k',
+    password: 'pscale_pw_WdIGJK49rZFbDZKUp37EQKlibd10xTRpob4etCQrFDc',
     ssl: {
         rejectUnauthorized: false
     }
