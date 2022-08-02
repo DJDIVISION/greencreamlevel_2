@@ -18,7 +18,7 @@ function POSPage() {
   }
 
   const fetchProducts = async() => {
-    const api = "http://localhost:5000/products"
+    const api = "http://localhost:5000/products";
     setIsLoading(true);
     const result = await axios.get(api);
     setProducts(await result.data);
@@ -94,14 +94,9 @@ function POSPage() {
   const [stock, setStock] = useState([]);
 
   const fetchStock = async () => {
-    const response = await axios.get("http://localhost:8000/");
+    const api = "http://localhost:5000/pesos";
+    const response = await axios.get(api);
     setStock(response.data);
-    const AMNESIA1 = (response.data[0].amnesia1);
-    const AMNESIA2 = (response.data[0].amnesia2);
-    const GELATO = (response.data[0].gelato);
-    const JAMAICAN = (response.data[0].jamaican);
-    const LIADOS = (response.data[0].liados);
-    const BEBIDAS = (response.data[0].bebidas);
     console.log(response.data);
   }
 
@@ -172,9 +167,26 @@ function POSPage() {
 
                 }
               </div>
+              <div className='table-responsive bg-dark' style={{marginTop: '200px'}}>
+                <table className='table table-responsive table-dark table-hover'>
+                  <thead>
+                    <tr>
+                      <td>Nombre</td>
+                      <td>Stock</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                      <td id="name"></td>
+                      <td id="stock"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
 
 
         </div>
+        
       </div>
     </MainLayout>
   )

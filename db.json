@@ -3,24 +3,27 @@
         {
             "id": 1,
             "name": "Amnesia 1",
-            "peso": "0.5g",
+            "peso": 0.5,
             "price": "2.5",
+            "cantidad": 172,
             "image": "https://i.postimg.cc/y8L3ZQ3s/amnesia1.jpg"
   
         },
         {
             "id": 2,
             "name": "Amnesia 1",
-            "peso": "1g",
+            "peso": 1,
             "price": "5",
+            "cantidad": 172,
             "image": "https://i.postimg.cc/y8L3ZQ3s/amnesia1.jpg"
   
         },
         {
             "id": 3,
             "name": "Amnesia 1",
-            "peso": "0.2g",
+            "peso": 0.2,
             "price": "1",
+            "cantidad": 172,
             "image": "https://i.postimg.cc/y8L3ZQ3s/amnesia1.jpg"
   
         },
@@ -29,6 +32,7 @@
             "name": "Amnesia 2",
             "peso": "0.5g",
             "price": "2.5",
+            "cantidad": 85.4,
             "image": "https://i.postimg.cc/ncPt9qVN/amnesia2.jpg"
   
         },
@@ -37,6 +41,7 @@
             "name": "Amnesia 2",
             "peso": "1g",
             "price": "5",
+            "cantidad": 85.4,
             "image": "https://i.postimg.cc/ncPt9qVN/amnesia2.jpg"
   
         },
@@ -45,6 +50,7 @@
             "name": "Amnesia 2",
             "peso": "0.2g",
             "price": "1",
+            "cantidad": 85.4,
             "image": "https://i.postimg.cc/ncPt9qVN/amnesia2.jpg"
   
         },
@@ -53,6 +59,7 @@
             "name": "Jamaican Dream",
             "peso": "0.5g",
             "price": "2.5",
+            "cantidad": 63.5,
             "image": "https://i.postimg.cc/5003zQ2k/jamaican.jpg"
   
         },
@@ -61,6 +68,7 @@
             "name": "Jamaican Dream",
             "peso": "1g",
             "price": "5",
+            "cantidad": 63.5,
             "image": "https://i.postimg.cc/5003zQ2k/jamaican.jpg"
   
         },
@@ -69,6 +77,7 @@
             "name": "Jamaican Dream",
             "peso": "0.2g",
             "price": "1",
+            "cantidad": 63.5,
             "image": "https://i.postimg.cc/5003zQ2k/jamaican.jpg"
   
         },
@@ -77,6 +86,7 @@
             "name": "GELATO",
             "peso": "0.5g",
             "price": "3",
+            "cantidad": 154.2,
             "image": "https://i.postimg.cc/jjFJZPnp/GELATO.jpg"
   
         },
@@ -85,6 +95,7 @@
             "name": "GELATO",
             "peso": "1g",
             "price": "6",
+            "cantidad": 154.2,
             "image": "https://i.postimg.cc/jjFJZPnp/GELATO.jpg"
   
         },
@@ -93,6 +104,7 @@
             "name": "GELATO",
             "peso": "0.16g",
             "price": "1",
+            "cantidad": 154.2,
             "image": "https://i.postimg.cc/jjFJZPnp/GELATO.jpg"
   
         },
@@ -101,6 +113,7 @@
             "name": "HASH",
             "peso": "0.5g",
             "price": "3",
+            "cantidad": 0,
             "image": "https://i.postimg.cc/g0FFG8rC/hash.jpg"
   
         },
@@ -109,6 +122,7 @@
             "name": "HASH",
             "peso": "1g",
             "price": "6",
+            "cantidad": 0,
             "image": "https://i.postimg.cc/g0FFG8rC/hash.jpg"
   
         },
@@ -117,6 +131,7 @@
             "name": "HASH",
             "peso": "0.16g",
             "price": "1",
+            "cantidad": 0,
             "image": "https://i.postimg.cc/g0FFG8rC/hash.jpg"
   
         },
@@ -125,6 +140,7 @@
             "name": "LIADO",
             "peso": "0",
             "price": "2.5",
+            "cantidad": 10,
             "image": "https://i.postimg.cc/2SY7m5rH/PORRO.jpg"
   
         },
@@ -133,8 +149,32 @@
             "name": "BEBIDA",
             "peso": "0",
             "price": "1",
+            "cantidad": 50,
             "image": "https://i.postimg.cc/1RNd3f1P/SOFT-DRINK-CAN-001.jpg"
   
+        }
+    ],
+    "pesos": [
+        {
+            "amnesia1": 171.5
+        },
+        {
+            "amnesia2": 52.5
+        },
+        {
+            "gelato": 138.5
+        },
+        {
+            "jamaican": 63.5
+        },
+        {
+            "hash": 0
+        },
+        {
+            "liados": 18
+        },
+        {
+            "bebidas": 36
         }
     ]
   }
